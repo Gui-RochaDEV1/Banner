@@ -1,0 +1,19 @@
+
+.banner{
+    max-width: 1024px;
+    height: 400px;
+    margin: 0 auto;
+    background-image:url(../dinamica03GB/imagess/banner.jpeg);
+    background-size: cover;
+    display: flex;
+    align-content: center;
+}
+.text-banner{
+    color: black;
+    margin-left:50px;
+}
+.img-banner{
+    width: 500px;
+    height: 300px;
+    margin-right: 50px;
+}
