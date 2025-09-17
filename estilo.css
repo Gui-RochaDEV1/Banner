@@ -1,19 +1,43 @@
 
 .banner{
-    max-width: 1024px;
+    width: 1024px;
     height: 400px;
     margin: 0 auto;
-    background-image:url(../dinamica03GB/imagess/banner.jpeg);
+    background-image:url(imagess/banner.jpeg);
     background-size: cover;
     display: flex;
     align-content: center;
+    
 }
 .text-banner{
-    color: black;
+    color:rosybrown;
     margin-left:50px;
 }
 .img-banner{
     width: 500px;
     height: 300px;
     margin-right: 50px;
+}
+@media screen and (max-width:1024px) {
+    .banner{
+       width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-content: center;
+        
+    }
+    .img-banner{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+
+        
+    }
+    .text-banner{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        
+    }
+    
 }
